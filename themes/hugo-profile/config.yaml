@@ -268,7 +268,7 @@ params:
         content: First Merit Rank - B.Tech CSE
         image: /portfolio/images/medal.jpg
       - title: DBT - Open Source Contributor
-        content: Contributed to a open source ETL tool (DBT) 🔗
+        content: "Contributed to a open source ETL tool (DBT) 🔗"
         url: https://github.com/dbt-labs/dbt-core/issues/7138
         image: /portfolio/images/dbt.png
 
