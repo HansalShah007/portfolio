@@ -133,7 +133,7 @@ params:
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "Resume 🔗"
       url: "/portfolio/resume.pdf"
       download: true
       newPage: false
@@ -238,10 +238,10 @@ params:
         GPA: "4.0 out of 4.0"
         content: |-
           Published four research papers in various journals and conferences:
-          - [Cardiovascular disease prediction using various machine learning algorithms](https://research.skylineuniversity.ac.ae/id/eprint/584/1/Cardiovascular%20Disease%20Prediction%20using%20Various%20Machine%20Learning%20Algorithms..pdf)
-          - [Enhanced handwritten digit recognition using optimally selected optimizer for an ANN](https://link.springer.com/article/10.1007/s11042-023-15402-0)
-          - [Hand Gesture to Character Recognition using Convolutional Neural Network](https://ieeexplore.ieee.org/abstract/document/10053103)
-          - [Integrated Database Management System for Emergency Services](https://ieeexplore.ieee.org/abstract/document/9670946)
+          - [Cardiovascular disease prediction using various machine learning algorithms 🔗](https://research.skylineuniversity.ac.ae/id/eprint/584/1/Cardiovascular%20Disease%20Prediction%20using%20Various%20Machine%20Learning%20Algorithms..pdf)
+          - [Enhanced handwritten digit recognition using optimally selected optimizer for an ANN 🔗](https://link.springer.com/article/10.1007/s11042-023-15402-0)
+          - [Hand Gesture to Character Recognition using Convolutional Neural Network 🔗](https://ieeexplore.ieee.org/abstract/document/10053103)
+          - [Integrated Database Management System for Emergency Services 🔗](https://ieeexplore.ieee.org/abstract/document/9670946)
 
           Extracurricular Activities
             - President of Brahmand - The Astronomy Club of PDEU
@@ -267,7 +267,7 @@ params:
         content: First Merit Rank - B.Tech CSE
         image: /portfolio/images/medal.jpg
       - title: DBT - Open Source Contributor
-        content: Contributed to a open source ETL tool (DBT).
+        content: Contributed to a open source ETL tool (DBT) 🔗
         url: https://github.com/dbt-labs/dbt-core/issues/7138
         image: /portfolio/images/dbt.png
 
