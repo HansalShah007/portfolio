@@ -1,6 +1,6 @@
 baseURL: "https://hansalshah007.github.io/portfolio/"
 languageCode: "en-us"
-title: "Portfolio"
+title: "Portfolio - Hansal Shah"
 theme: hugo-profile
 
 outputs:
@@ -53,8 +53,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Portfolio - Hansal Shah"
+  description: This is where you get to know about me.
   staticPath: "/portfolio"  # The path to serve the static files from
   favicon: "/portfolio/images/hansal.png"
 
@@ -124,10 +124,10 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Hansal."
+    title: "Hansal Shah."
     subtitle: "Transforming data into wisdom."
     content: "Graduate CS @ Cornell University"
-    image: /portfolio/images/survivorship-bias.png
+    image: /portfolio/images/hansal.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -144,14 +144,14 @@ params:
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/hansalms/
       customIcons:
-        - icon: /portfolio/leetcode.png
+        - icon: /portfolio/leetcode.svg
           url: "https://leetcode.com/hansal007/"
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/portfolio/images/hansal.png"
+    image: "/portfolio/images/survivorship-bias.png"
     content: |-
       I am a  ***Machine Learning Engineer*** with a passion for developing software solutions. I have a background in computer science and mathematics, and I have a strong interest in Generative AI & Natural Language Processing. I am currently a graduate student at [Cornell](https://www.cornell.edu/) in Ithaca, NY. 
 
