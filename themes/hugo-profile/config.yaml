@@ -1,4 +1,4 @@
-baseURL: "https://hansalshah007.github.io/portfolio"
+baseURL: "https://hansalshah007.github.io/portfolio/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
