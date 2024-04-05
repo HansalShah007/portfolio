@@ -283,7 +283,7 @@ params:
         image: /portfolio/images/projects/r2decide.jpg
         featured:
           name: Discord Bot (Alpha Version)
-          link: https://discord.com/invite/6KEPb7KH
+          link: https://discord.com/invite/UCcnmyeKjH
         badges:
           - "RAG"
           - "PEFT"
