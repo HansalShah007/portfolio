@@ -284,8 +284,8 @@ params:
     enable: true
     items:
       - title: Cloneadvisor - Chatbot
-        content: I led the development of a Retrieval-Augmented Generation pipeline focused on expert domain knowledge, implementing query optimization, reciprocal rank fusion, document re-ranking, and fact-checking to enhance response accuracy. This effort reduced the pipeline's hallucination rate to 8.47% and incorporated mechanisms to avoid off-topic conversations, handle casual chit-chat distinctly, and generate non-controversial, non-harmful responses using robust guardrails.
-        image: /portfolio/images/projects/clone_advisor_logo.jpg
+        content: I led the development of a Retrieval-Augmented Generation pipeline, optimizing queries, implementing document re-ranking and fact-checking, reducing hallucination to 8.47%, and ensuring responses were accurate, non-controversial, and on-topic using robust guardrails.
+        image: /portfolio/images/projects/clone_advisor_logo.png
         featured:
           name: Website
           link: https://app.cloneadvisor.com/
