@@ -226,11 +226,17 @@ params:
           name: "Cornell University"
           url: "https://www.cornell.edu/"
         date: "2023 - 2024"
-        GPA: "4.14 out of 4.3"
+        GPA: "4.02 out of 4.3"
         content: |-
           Extracurricular Activities
             - Teaching Assistant - Designing Data Products (NBA 6070) 
             - Teaching Assistant - Machine Learning (CS 5780)
+
+        featuredLink:
+          enable: true
+          name: "Academic Record"
+          url: "/portfolio/cornell_transcript.pdf"
+
       - title: "Bachelor of Technology in Computer Science & Engineering"
         school:
           name: "Pandit Deendayal Energy University"
@@ -255,7 +261,7 @@ params:
 
         featuredLink:
           enable: true
-          name: "My academic record"
+          name: "Academic Record"
           url: "https://drive.google.com/file/d/1Qkj0KElMWv01ygQ8xKih9pj82c7f5BHQ/view?usp=sharing"
       
 
@@ -276,27 +282,20 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
     items:
-      - title: R2Decide - Chatbot
-        content: Leading the creation of a Retrieval-Augmented Generation system with a fine-tuned LLAMA 2 model for personalized, expert responses.
-        image: /portfolio/images/projects/r2decide.jpg
+      - title: Cloneadvisor - Chatbot
+        content: I led the development of a Retrieval-Augmented Generation pipeline focused on expert domain knowledge, implementing query optimization, reciprocal rank fusion, document re-ranking, and fact-checking to enhance response accuracy. This effort reduced the pipeline's hallucination rate to 8.47% and incorporated mechanisms to avoid off-topic conversations, handle casual chit-chat distinctly, and generate non-controversial, non-harmful responses using robust guardrails.
+        image: /portfolio/images/projects/clone_advisor_logo.jpg
         featured:
-          name: Discord Bot (Alpha Version)
-          link: https://discord.com/invite/UCcnmyeKjH
+          name: Website
+          link: https://app.cloneadvisor.com/
         badges:
           - "RAG"
           - "PEFT"
-          - "NLP"
+          - "Guardrails"
+          - "FastAPI"
           - "Python"
           - "Pinecone"
-        # links:
-        #   - icon: fa fa-discord
-        #     url: https://discord.com/invite/6KEPb7KH
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/hugo-profile
-        #   - icon: fab fa-twitter
-        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Readme.md File Generator
         content: Readme.md generator is a React application that takes basic information about the user's project as an input and generates a README file which the user can upload directly in their project's repository.
